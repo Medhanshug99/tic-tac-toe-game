@@ -18,7 +18,7 @@ A classic **Tic Tac Toe** game where two players take turns marking **X** and **
 
 You can play the live version here:
 
-**Live Preview:** https://tic-tac-toe-game-27.vercel.app/
+**Live Preview:** (https://tic-tac-toe-game-09.vercel.app/)
 
 ---
 
