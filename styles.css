@@ -3,86 +3,71 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: #ffffff;
+    background-color: #f4f4f4;
+    color: #222;
 }
 
 h1 {
     margin-bottom: 20px;
-    font-size: 2.5rem;
-    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 #board {
-    width: 375px;
-    height: 375px;
+    width: 360px;
+    height: 360px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    padding: 15px;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(12px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+    gap: 8px;
+    padding: 10px;
+    background-color: #ddd;
+    border: 1px solid #bbb;
 }
 
 .square {
     width: 110px;
     height: 110px;
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.85);
-    font-size: 48px;
-    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #999;
+    font-size: 40px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: all 0.2s ease;
-    box-shadow: inset 0 0 0 2px transparent;
+    color: #000;
 }
 
 .square:hover {
-    transform: scale(1.05);
-    background: #ffffff;
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+    background-color: #f0f0f0;
 }
 
 .square:active {
-    transform: scale(0.95);
+    background-color: #e6e6e6;
 }
-
-.square {
-    color: #000000;
-}
-
 
 #restartButton {
-    margin-top: 25px;
-    height: 45px;
-    width: 170px;
-    border-radius: 30px;
-    border: none;
-    font-size: 18px;
-    font-weight: 500;
+    margin-top: 20px;
+    height: 40px;
+    width: 160px;
+    border: 1px solid #007bff;
+    font-size: 16px;
     cursor: pointer;
-    background: linear-gradient(135deg, #ff5c5c, #ff9068);
-    color: #ffffff;
-    transition: all 0.25s ease;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    background-color: #007bff;
+    color: #fff;
 }
 
 #restartButton:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+    background-color: #0056b3;
 }
 
 #restartButton:active {
-    transform: translateY(1px);
+    background-color: #004a9f;
 }
