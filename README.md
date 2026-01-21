@@ -1,6 +1,6 @@
 #  Tic Tac Toe Game
 
-A classic **Tic Tac Toe** game where two players take turns marking **X** and **O** on a 3x3 grid, aiming to get three in a row horizontally, vertically, or diagonally. [web:9]
+A classic **Tic Tac Toe** game where two players take turns marking **X** and **O** on a 3x3 grid, aiming to get three in a row horizontally, vertically, or diagonally
 
 ---
 
